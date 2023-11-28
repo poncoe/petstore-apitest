@@ -6,7 +6,7 @@
   "scripts": {
     "testcoe": "mocha test/api/welcomeTest.js",
     "testget": "mocha test/api/getTest.js",
-    "testpost": "mocha filename.js"
+    "testpost": "mocha test/api/postTest.js"
   },
   "repository": {
     "type": "git",
