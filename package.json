@@ -1,0 +1,27 @@
+{
+  "name": "petstore-apitest",
+  "version": "1.0.0",
+  "description": "Petstore API Test using JS Automation.",
+  "main": "index.js",
+  "scripts": {
+    "test get": "mocha filename.js",
+    "test post": "mocha filename.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poncoe/petstore-apitest.git"
+  },
+  "author": "poncoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poncoe/petstore-apitest/issues"
+  },
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3"
+  }
+}
