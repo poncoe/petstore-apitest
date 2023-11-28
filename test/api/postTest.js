@@ -1,8 +1,9 @@
 const request = require('supertest')
+const baseUrl = require('../../env')
 
 describe('Post Request Hewan', () => {
     it('Berhasil membuat user', async () => {
-        const response = request('https://petstore.swagger.io/v2')
+        const response = request(baseUrl())
         .post('/user')
         .send({
             "id" : 17045,
