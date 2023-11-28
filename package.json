@@ -4,8 +4,9 @@
   "description": "Petstore API Test using JS Automation.",
   "main": "index.js",
   "scripts": {
-    "test get": "mocha filename.js",
-    "test post": "mocha filename.js"
+    "testcoe": "mocha test/api/welcomeTest.js",
+    "testget": "mocha filename.js",
+    "testpost": "mocha filename.js"
   },
   "repository": {
     "type": "git",
