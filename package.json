@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "testcoe": "mocha test/api/welcomeTest.js",
-    "testget": "mocha filename.js",
+    "testget": "mocha test/api/getTest.js",
     "testpost": "mocha filename.js"
   },
   "repository": {
