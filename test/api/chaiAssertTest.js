@@ -27,4 +27,5 @@ describe('Post Request Hewan', () => {
     })
 
     //reporting in mochawesome
+    // using : npx mocha --spec test/api/chaiAssertTest.js --reporter mochawesome
 })
