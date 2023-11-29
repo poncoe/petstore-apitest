@@ -4,7 +4,7 @@
   "description": "petstore test using cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "cypress": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/poncoe/petstore-apitest/issues"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
   }
 }
