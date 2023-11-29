@@ -1,0 +1,21 @@
+{
+  "name": "petstore-cypress",
+  "version": "1.0.0",
+  "description": "petstore test using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poncoe/petstore-apitest.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "poncoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poncoe/petstore-apitest/issues"
+  }
+}
