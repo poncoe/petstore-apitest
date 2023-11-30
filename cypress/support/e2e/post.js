@@ -2,11 +2,11 @@ describe('Petstore API Inventory Testing', () => {
     it('add item - POST', () => {
         let body = {
             "id" : 0,
-            "username" : "coedotz",
+            "username" : Cypress.env('username'),
             "firstName" : "Arief", 
             "lastName" : "Wardhana",
             "email" : "poncoe@coedotz.com",
-            "password" : "P@ssw0rd123",
+            "password" : Cypress.env('password'),
             "phone" : "17045",
             "userStatus" : 0
         }
